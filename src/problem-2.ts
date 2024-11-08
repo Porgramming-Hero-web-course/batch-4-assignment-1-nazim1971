@@ -1,19 +1,19 @@
-//Function type
-type RemoveDuplicates = (num: number[]) => number[];
+type RemoveDuplicates = (arr: number[]) => number[];
 
-const removeDuplicates: RemoveDuplicates = (num) => {
-    const seen = new Set<number>();
+const removeDuplicates: RemoveDuplicates = (arr) => {
+    const newArr = new Set<number>();
     const result: number[] = [];
 
-    for (const item of num) {
-        if (!seen.has(item)) {
-            seen.add(item);
-            result.push(item);
+    for (const duplicate of arr) {
+        if (!newArr.has(duplicate)) {
+            newArr.add(duplicate);
+            result.push(duplicate);
         }
     }
 
     return result;
 };
 
+//console.log(removeDuplicates([1,1,2,3,4,5,6,5,5,5]));
 
 
