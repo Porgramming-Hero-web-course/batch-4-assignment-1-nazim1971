@@ -1,7 +1,3 @@
-Sure! Here's a revised version that includes type definitions before the code examples:
-
----
-
 **Understanding async/await in TypeScript**
 
 In TypeScript, `async/await` makes asynchronous code look like regular, synchronous code, making it easier to understand and maintain. An `async` function always returns a Promise, and `await` can only be used inside an `async` function.
