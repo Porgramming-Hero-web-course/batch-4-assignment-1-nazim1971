@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",             // Target ECMAScript version
+    "module": "commonjs",        // Module system
+    "strict": true,              // Enable strict type-checking
+    "esModuleInterop": true,     // Enable compatibility with CommonJS and ES modules
+    "skipLibCheck": true,        // Skip type checking of declaration files
+    "outDir": "./dist",          // Output directory for compiled files
+    "rootDir": "./src"           // Root directory for source files
+  },
+  "include": ["src"],             // Include source files
+  "exclude": ["node_modules"]     // Exclude node_modules folder
+}
