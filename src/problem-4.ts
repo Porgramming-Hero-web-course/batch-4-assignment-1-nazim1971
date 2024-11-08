@@ -12,7 +12,7 @@ type Rectangle = {
 
 type CircleOrRectangle = Circle | Rectangle;
 
-// define function type
+// define function type inline
 type CalculateArea = (shape: CircleOrRectangle) => number;
 
 const calculateShapeArea: CalculateArea = (shape) => {
